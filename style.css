@@ -3,28 +3,36 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	background-color: #141414;
-	
+	background-color:black ;
 }
-.container{
+
+.container {
 	height:100%;
 	width:50%;
-	display:block;
+	display:flex;
+	background-color:orange;
 }
+
 .flavor-box {
 	height:25%;
 	width:100%;
+	display:flex;
 }
 
 
 .column {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: calc(100%/2);
+	height:100%;
+	width:25%;
+	display:block;
+	background-color: #141414;
+
 }
+
 .img {
-	
+	height:100%;
+	width:50%;
+	display:flex;
+	background-color: #141414;
 }
 
 
@@ -39,10 +47,28 @@ body {
 }
 */
 /*colors*/
-.blue {background-color: #2754db;}
-.red {background-color:#C70039 ;}
-.green{background-color:green;}
-.orange {background-color: #f2a802;}
+.melon{background-color:#ccebc2 ;}
+.matcha{background-color:#b2a821 ;}
+.chili{background-color:#e1422c;}
+.watermelon{background-color:#c4979a;}
+.mango{background-color:f7b332 ;}
+.original{background-color: c7dce6 ;}
+.peach {background-color:e3a59a ;}
+.yuzu{background-color:bisque;}
+.kiwi{background-color:
+#377720;}
+.blueberry{background-color: #64ebfb;}
+.green_apple{background-color: #abb834;}
+.grape{background-color:
+#c63c52 ;}
+.wasabi{background-color:#e6f3a1;}
+.yogurt{background-color: #f7f3f2;}
+.lychee {background-color: #f8f4f5;}
+.coconut{background-color:
+#f8f4f5 ;}
+
+/*check soranews24 for individual bottle shots
+
 
 /* Instead of changing the SRC of the image, you can add this class onto "blue-man"
 .power-up {
@@ -51,7 +77,6 @@ body {
 */
 
 /* Enhance your UX with the following rules:
-
 img:hover {
 	filter: grayscale(0%);
 	transition: .5s ease-in-out;
