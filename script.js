@@ -1,6 +1,6 @@
 
 // JavaScript popup window function
-function makeopaque(elem){
+function makeOpaque(elem) {
 	elem.classList.add("opaque");
 }
 	function basicPopup(url) {
