@@ -6,12 +6,7 @@ body {
 	background-color:black ;
 }
 
-.container {
-	height:100%;
-	width:50%;
-	display:flex;
-	background-color:orange;
-}
+
 
 .flavor-box {
 	height:25%;
@@ -20,7 +15,14 @@ body {
 }
 
 
-.column {
+.column_a {
+	height:100%;
+	width:25%;
+	display:flex;
+	background-color: #141414;
+
+}
+.column_b {
 	height:100%;
 	width:25%;
 	display:block;
@@ -32,7 +34,7 @@ body {
 	height:100%;
 	width:50%;
 	display:flex;
-	background-color:;
+	background-color: #141414;
 }
 
 
@@ -68,6 +70,8 @@ body {
 #f8f4f5 ;}
 
 /*check soranews24 for individual bottle shots
+
+
 /* Instead of changing the SRC of the image, you can add this class onto "blue-man"
 .power-up {
 	content:url(images/vegeta1.png);
