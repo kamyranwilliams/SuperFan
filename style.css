@@ -6,7 +6,12 @@ body {
 	background-color:black ;
 }
 
-
+.container {
+	height:100%;
+	width:50%;
+	display:flex;
+	background-color:orange;
+}
 
 .flavor-box {
 	height:25%;
@@ -15,14 +20,7 @@ body {
 }
 
 
-.column_a {
-	height:100%;
-	width:25%;
-	display:flex;
-	background-color: #141414;
-
-}
-.column_b {
+.column {
 	height:100%;
 	width:25%;
 	display:block;
@@ -34,7 +32,7 @@ body {
 	height:100%;
 	width:50%;
 	display:flex;
-	background-color: #141414;
+	background-color:;
 }
 
 
@@ -49,29 +47,43 @@ body {
 }
 */
 /*colors*/
-.melon{background-color:#ccebc2 ;}
+.green_apple{background-color: #abb834;}
+/*place holder color*/
+.raspberry{background-color:maroon;}
+.lychee {background-color: #f8f4f5;}
 .matcha{background-color:#b2a821 ;}
-.chili{background-color:#e1422c;}
+/*place holder color*/
+.muscat{background-color: greenyellow}
 .watermelon{background-color:#c4979a;}
-.mango{background-color:f7b332 ;}
-.original{background-color: c7dce6 ;}
-.peach {background-color:e3a59a ;}
-.yuzu{background-color:bisque;}
+.melon{background-color:#ccebc2 ;}
+.blueberry{background-color: #64ebfb;}
+.yogurt{background-color: #f7f3f2;}
 .kiwi{background-color:
 #377720;}
-.blueberry{background-color: #64ebfb;}
-.green_apple{background-color: #abb834;}
-.grape{background-color:
-#c63c52 ;}
+/*place holder color*/
+.yuzu{background-color:bisque;}
+.peach {background-color:e3a59a ;}/*place holder color*/
+.coconut{background-color: saddlebrown;} 
+/*place holder color*/
+.strawberry{background-color:hotpink}
+.original{background-color:#c7dce6 ;}
+.mango{background-color:#f7b332 ;}
+.banana{background-color:#ffe135 ;}
+.grape{background-color:#6f2da8 ;}
+.orange{background-color:orange;}
+.pineapple{background-color:#ffff65 ;}
+.bubblegum{background-color:#ffc1cc ;}
+.takoyaki{background-color:#f07e5f ;}
+.curry{background-color:#815b28 ;}
+.kimchi{background-color:#62790e;}
+.corn{background-color:#fbed5e ;}
+.chili{background-color:#e1422c;}
 .wasabi{background-color:#e6f3a1;}
-.yogurt{background-color: #f7f3f2;}
-.lychee {background-color: #f8f4f5;}
-.coconut{background-color:
-#f8f4f5 ;}
+
+
+
 
 /*check soranews24 for individual bottle shots
-
-
 /* Instead of changing the SRC of the image, you can add this class onto "blue-man"
 .power-up {
 	content:url(images/vegeta1.png);
