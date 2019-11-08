@@ -6,21 +6,21 @@ body {
 	background-color:black ;
 }
 
-.container {
+.column_a {
 	height:100%;
-	width:50%;
+	width:75%;
 	display:flex;
 	background-color:orange;
 }
 
 .flavor-box {
-	height:25%;
+	height:14.29%;
 	width:100%;
 	display:flex;
 }
 
 
-.column {
+.column_b {
 	height:100%;
 	width:25%;
 	display:block;
