@@ -6,19 +6,26 @@ body {
 	background-color:black ;
 }
 
+/*.container {
+	height:100%;
+	width:50%;
+	display:flex;
+	background-color:orange;
+}*/
+
+.flavor-box {
+	height:25%;
+	width:100%;
+	display:flex;
+}
+
 .column_a {
 	height:100%;
 	width:50%;
 	display:flex;
 	background-color:orange;
-}
 
-.flavor-box {
-	height:14.29%;
-	width:100%;
-	display:flex;
 }
-
 
 .column_b {
 	height:100%;
@@ -27,19 +34,9 @@ body {
 	background-color: #141414;
 
 }
-
-/*.img {
-	height:100%;
-	width:50%;
-	display:flex;
-	background-color:;
-}*/
 .opaque {
 	opacity: 0.5;
-}
-
-
-/*img {
+}/*img {
 	filter: grayscale(90%);
 	transition: .5s ease-in-out;
 	display:flex;
