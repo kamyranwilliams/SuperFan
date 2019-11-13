@@ -1,3 +1,19 @@
+/*anchor tags*/
+a{
+	width:10%;
+	height:5%;
+}
+/*unvisited link*/
+a:link{
+	
+}
+/*visited link*/
+a:visited {}
+/*mouse over link*/
+a:hover {}
+/*selected*/
+a:active {}
+
 body {
 	display:flex;
 	width: 100%;
@@ -9,7 +25,7 @@ body {
 .container {
 	height:100%;
 	width:50%;
-	display:flex;
+	display:flex;/*perhaps make the contents of the container move towards the middle  */
 	background-color:orange;
 }
 
@@ -21,9 +37,9 @@ body {
 
 .column_a {
 	height:100%;
-	width:50%;
+	width:100%;
 	display:flex;
-	background-color:orange;
+	background-color:#32a852;
 
 }
 
@@ -80,35 +96,51 @@ body {
 .chili{background-color:#e1422c;}
 .wasabi{background-color:#e6f3a1;}
 
-@media only screen and (max-width: 900px) {
-body {
-	
-	background-color:white;
-}
-
-/*.container {
-	height:100%;
-	width:50%;
-	display:flex;
-	background-color:orange;
-}*/
-
-
-
-}
-
 @media only screen and (max-width: 650px) {
 	
 	body {
 		display:block;
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		background-color:black ;
 	}
-		.flavor-box {
+	.container {
+		height:100%;
+		width:100%;
+		display:flex;
+		background-color:yellow;
+
+	}
+	.flavor-box {
 		height:25%;
+		width:100%;
+		display:flex;
+	}
+
+	.column_a {
+		height:100%;
+		width:100%;
+		display:flex;
+		background-color:orange;
+
+	}
+
+	.column_b {
+		height:100%;
 		width:25%;
+		display:block;
+		background-color:red;
+
+	}
+
+}/* or move the boxes into one container and then make it flex wrap
+
+
+/*@media only screen and (max-width: 344px) {
+	
+	body {
+		display:block;
+	}
+	.flavor-box {
+		height:25%;
+		width:50%;
 		display:flex;
 	}
 
@@ -123,20 +155,11 @@ body {
 	.column_b {
 		height:100%;
 		width:25%;
-		display:block;
-		background-color: #141414;
+		flex-wrap:wrap;
+		background-color:red;
 
 	}
 
-}
-
-
-@media only screen and (max-width: 325px) {
-	
-body{
-	
-	}
-	
 
 }
 
