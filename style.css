@@ -6,12 +6,12 @@ body {
 	background-color:black ;
 }
 
-/*.container {
+.container {
 	height:100%;
 	width:50%;
 	display:flex;
 	background-color:orange;
-}*/
+}
 
 .flavor-box {
 	height:25%;
@@ -99,34 +99,34 @@ body {
 
 @media only screen and (max-width: 650px) {
 	
-body {
-	display:block;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-color:black ;
-}
-	.flavor-box {
-	height:25%;
-	width:25%;
-	display:flex;
-}
+	body {
+		display:block;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		background-color:black ;
+	}
+		.flavor-box {
+		height:25%;
+		width:25%;
+		display:flex;
+	}
 
-.column_a {
-	height:100%;
-	width:50%;
-	display:flex;
-	background-color:orange;
+	.column_a {
+		height:50%;
+		width:100%;
+		display:flex;
+		background-color:orange;
 
-}
+	}
 
-.column_b {
-	height:100%;
-	width:25%;
-	display:block;
-	background-color: #141414;
+	.column_b {
+		height:100%;
+		width:25%;
+		display:block;
+		background-color: #141414;
 
-}
+	}
 
 }
 
