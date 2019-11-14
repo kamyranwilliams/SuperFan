@@ -21,20 +21,23 @@ body {
 	margin: 0;
 	background-color:black ;
 }
-
+.btn{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+	background:plum;
+}
 .container {
 	height:100%;
 	width:50%;
 	display:flex;/*perhaps make the contents of the container move towards the middle  */
 	background-color:orange;
 }
-
-.flavor-box {
-	height:25%;
-	width:100%;
-	display:flex;
-}
-
 .column_a {
 	height:100%;
 	width:100%;
@@ -45,23 +48,11 @@ body {
 
 .column_b {
 	height:100%;
-	width:25%;
+	width:50%;
 	display:block;
 	background-color: #141414;
 
 }
-.opaque {
-	opacity: 0.5;
-}/*img {
-	filter: grayscale(90%);
-	transition: .5s ease-in-out;
-	display:flex;
-	height:75%;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-*/
 /*colors*/
 .green_apple{background-color: #abb834;}
 /*place holder color*/
@@ -96,7 +87,16 @@ body {
 .chili{background-color:#e1422c;}
 .wasabi{background-color:#e6f3a1;}
 
-@media only screen and (max-width: 650px) {
+.double-col{
+	height:100%;
+	width:50%;
+	display:flex;}
+.flavor-box {
+	height:25%;
+	width:100%;
+	display:flex;
+}
+@media only screen and (max-width: 720px) {
 	
 	body {
 		display:block;
@@ -124,16 +124,16 @@ body {
 
 	.column_b {
 		height:100%;
-		width:25%;
+		width:50%;
 		display:block;
 		background-color:red;
 
 	}
 
-}/* or move the boxes into one container and then make it flex wrap
+}/* or move the boxes into one container and then make it flex wrap*/
 
 
-/*@media only screen and (max-width: 344px) {
+@media only screen and (max-width: 360px) {
 	
 	body {
 		display:block;
@@ -142,6 +142,13 @@ body {
 		height:25%;
 		width:50%;
 		display:flex;
+	}
+	.container {
+		height:100%;
+		width:100%;
+		display:flex;
+		background-color:yellow;
+
 	}
 
 	.column_a {
@@ -160,8 +167,27 @@ body {
 
 	}
 
-
+	.double-col {
+		height:100%;
+		width:100%;
+		display:flex;
+	}
 }
+.opaque {
+	opacity: 0.5;
+}/*img {
+	filter: grayscale(90%);
+	transition: .5s ease-in-out;
+	display:flex;
+	height:75%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+*/
+
+
+
 
 
 

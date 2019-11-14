@@ -1,11 +1,3 @@
-//JQuery code for images to fit a div
-$(document).ready(function(){
-    imageWidth = $('.column_b img').width();
-    parentWidth = $('.main').width();
-    if (imageWidth > parentWidth) {
-        $('.column_b').css('width', '100%');
-    }
-});
 
 function makeOpaque(elem) {
 	elem.classList.add("opaque");
