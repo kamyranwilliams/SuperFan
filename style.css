@@ -118,7 +118,7 @@ body {
 		height:100%;
 		width:100%;
 		display:flex;
-		background-color:orange;
+		background-color:#32a852;
 
 	}
 
@@ -140,7 +140,7 @@ body {
 	}
 	.flavor-box {
 		height:25%;
-		width:50%;
+		width:100%;
 		display:flex;
 	}
 	.container {
@@ -152,16 +152,16 @@ body {
 	}
 
 	.column_a {
-		height:50%;
+		height:100%;
 		width:100%;
 		display:flex;
-		background-color:orange;
+		background-color:#32a852;
 
 	}
 
 	.column_b {
 		height:100%;
-		width:25%;
+		width:50%;
 		flex-wrap:wrap;
 		background-color:red;
 
