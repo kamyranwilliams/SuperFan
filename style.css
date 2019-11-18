@@ -21,19 +21,20 @@ body {
 	margin: 0;
 	background-color:black ;
 }
+.container_a {
+	height:100%;
+	width:50%;
+	display:flex;/*perhaps make the contents of the container move towards the middle  */
+	background-color:red;
+}
 
-.container {
+.container_b {
 	height:100%;
 	width:50%;
 	display:flex;/*perhaps make the contents of the container move towards the middle  */
 	background-color:orange;
 }
 
-.flavor-box {
-	height:25%;
-	width:100%;
-	display:flex;
-}
 
 .column_a {
 	height:100%;
@@ -45,11 +46,23 @@ body {
 
 .column_b {
 	height:100%;
-	width:25%;
+	width:50%;
 	display:block;
 	background-color: #141414;
 
 }
+.double_column{
+	height:100%;
+	width:50%;
+	display:flex;
+	background-color: #141414;
+}
+.flavor-box {
+	height:25%;
+	width:100%;
+	display:flex;
+}
+
 .opaque {
 	opacity: 0.5;
 }/*img {
@@ -101,13 +114,21 @@ body {
 	body {
 		display:block;
 	}
-	.container {
-		height:100%;
-		width:100%;
-		display:flex;
-		background-color:yellow;
-
+	.container_a {
+	height:40%;
+	width:100%;
+	display:flex;/*perhaps make the contents of the container move towards the middle  */
+	background-color:red;
 	}
+
+	.container_b {
+	height:60%;
+	width:100%;
+	display:flex;/*perhaps make the contents of the container move towards the middle  */
+	background-color:orange;
+	}
+
+	
 	.flavor-box {
 		height:25%;
 		width:100%;
@@ -116,50 +137,75 @@ body {
 
 	.column_a {
 		height:100%;
-		width:100%;
-		display:flex;
-		background-color:orange;
-
-	}
-
-	.column_b {
-		height:100%;
-		width:25%;
-		display:block;
-		background-color:red;
-
-	}
-
-}/* or move the boxes into one container and then make it flex wrap
-
-
-/*@media only screen and (max-width: 344px) {
-	
-	body {
-		display:block;
-	}
-	.flavor-box {
-		height:25%;
 		width:50%;
 		display:flex;
-	}
-
-	.column_a {
-		height:50%;
-		width:100%;
-		display:flex;
-		background-color:orange;
+		background-color:#32a852;
 
 	}
 
 	.column_b {
 		height:100%;
-		width:25%;
-		flex-wrap:wrap;
+		width:50%;
+		display:block;
 		background-color:red;
 
 	}
 
+}
+
+
+
+
+@media only screen and (max-width: 344px) {
+	
+	body {
+	display:block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color:black ;
+	}	
+	.container_a {
+		height:40%;
+		width:100%;
+		display:flex;/*perhaps make the contents of the container move towards the middle  */
+		background-color:red;
+	}
+
+	.container_b {
+		height:60S%;
+		width:100%;
+		display:block;/*perhaps make the contents of the container move towards the middle  */
+		background-color:orange;
+	}
+
+
+	.column_a {
+		height:100%;
+		width:75%;
+		display:flex;
+		background-color:#32a852;
+
+	}
+
+	.column_b {
+		height:100%;
+		width:50%;
+		display:block;
+		background-color: #141414;
+
+	}
+	.double_column{
+		height:100%;
+		width:100%;
+		display:flex;
+		background-color: #141414;
+	}
+	.flavor-box {
+		height:25%;
+		width:100%;
+		display:flex;
+	}
 
 }
 
