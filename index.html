@@ -10,19 +10,20 @@
 
 	<body>
 		<div class= "container_a">
-			<div class="column_a"><a href="https://www.japancentre.com/en" onclick="basicPopup(this.href);return false"><img src="image/bottle.png">
-			</a><!--replace takoyaki with original bottle-->
+			<div class="column_a">
+				<a href="https://www.japancentre.com/en" onclick="basicPopup(this.href);return false"><img src="image/bottle.png"></a><!--replace takoyaki with original bottle-->
+				<img src="image/question.png" id="wow">
 			</div>
 		</div>
 		
 		<div class= "container_b">
 			<div class="double_column">
 				<div class="column_b">
-						<div class="green_apple flavor-box " onclick="makeOpaque(this)">
+						<div class="apple flavor-box" onclick="makeOpaque(this)">
 							<img src="image/takoyaki.png">
 						</div>
 						<!--raspberry donyae approved-->
-						<div class="raspberry flavor-box" onclick="makeOpaque(this)"><img src="image/takoyaki.png"></div>
+						<div class="raspberry flavor-box" onclick="changeImage();makeOpaque"><img src="image/takoyaki.png" ></div>
 						<div class="lychee flavor-box" onclick="makeOpaque(this)"><img src="image/takoyaki.png"></div>
 						<div class="matcha flavor-box" onclick="makeOpaque(this)"><img src="image/takoyaki.png"></div>
 						

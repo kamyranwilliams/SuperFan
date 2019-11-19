@@ -2,11 +2,96 @@
 function makeOpaque(elem) {
 	elem.classList.add("opaque");
 }
+function none(elem) {
+	elem.classList.add("opaque");
+	 document.getElementById("grapes").style.display = "none";
+}
 //https://www.w3schools.com/howto/howto_css_modals.asp
 // JavaScript popup window function
-	function basicPopup(url) {
+function basicPopup(url) {
 popupWindow = window.open(url,'popUpWindow','height=300,width=700,left=50,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes')
 	}
+	
+function changeImage(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage2(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage3(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage4(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage5(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage6(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage7(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage8(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage9(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage10(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage11(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage12(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage13(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage14(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage15(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
+function changeImage16(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	 makeOpaque(elem);
+	 none(elem);
+}
 /*having popup window issues + */
 
 /* or for a centered popup
