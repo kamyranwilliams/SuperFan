@@ -1,7 +1,7 @@
 	/*anchor tags*/
 	a{
 		width:10%;
-		height:5%;
+		height:10%;
 	}
 	/*unvisited link*/
 	a:link{
@@ -16,7 +16,7 @@
 		
 	}
 	/*selected*/
-	a:active {
+	:active {
 		
 	}
 
@@ -31,7 +31,7 @@
 		height:100%;
 		width:50%;
 		display:flex;/*perhaps make the contents of the container move towards the middle  */
-		background-color:red;
+		background-color:;
 	}
 
 	.container_b {
@@ -46,7 +46,7 @@
 		height:100%;
 		width:100%;
 		display:flex;
-		background-color:#32a852;
+		 background: linear-gradient(to bottom, #000000 0%, #32a852 100%);
 
 	}
 
@@ -56,6 +56,14 @@
 		display:block;
 		background-color: #141414;
 
+	}
+	
+	
+	#example:hover{
+		cursor: grab;
+	}
+	#example:active{
+		 cursor: grabbing;
 	}
 	/*.contain-image {
 		max-height:75%;
@@ -68,6 +76,7 @@
 		background-color: #141414;
 	}
 	.flavor-box {
+		/*if I want to add more boxes I could change it to 20% and add another row making it 5,4*/
 		height:25%;
 		width:100%;
 		display:flex;
@@ -120,6 +129,7 @@
 .corn{background-color:#fbed5e ;}
 .chili{background-color:#e1422c;}
 .wasabi{background-color:#e6f3a1;}
+
 @media only screen and (max-width: 900px) {body {
 		display:block;
 	}
@@ -170,7 +180,7 @@
 	height:40%;
 	width:100%;
 	display:flex;/*perhaps make the contents of the container move towards the middle  */
-	background-color:red;
+	background-color:black;
 	}
 
 	.container_b {
@@ -229,7 +239,7 @@
 		height:40%;
 		width:100%;
 		display:flex;/*perhaps make the contents of the container move towards the middle  */
-		background-color:red;
+		background-color:black;
 	}
 
 	.container_b {

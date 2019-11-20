@@ -6,17 +6,25 @@ function none(elem) {
 	elem.classList.add("opaque");
 	 document.getElementById("grapes").style.display = "none";
 }
+function changeColor(elem){
+	
+	document.getElementById('wow').style.backgroundColor = "rasberry";
+}
+function changeImage(){
+	 document.getElementById('wow').src = "image/takoyaki.png";
+	
+}
+function cursor() {
+  document.getElementById("bottle").style.cursor = "alias";
+}
 //https://www.w3schools.com/howto/howto_css_modals.asp
 // JavaScript popup window function
 function basicPopup(url) {
 popupWindow = window.open(url,'popUpWindow','height=300,width=700,left=50,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes')
 	}
 	
-function changeImage(){
-	 document.getElementById('wow').src = "image/takoyaki.png";
-	 makeOpaque(elem);
-	 none(elem);
-}
+
+/*
 function changeImage2(){
 	 document.getElementById('wow').src = "image/takoyaki.png";
 	 makeOpaque(elem);
